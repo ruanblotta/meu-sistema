@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    width: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    text-align: center;
+}
+.button-container a {
+    display: inline-block;
+    margin: 10px;
+    padding: 30px;
+    width: 150px;
+    height: 150px;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; /* Ajuste para centralizar o texto */
+    border-radius: 0; /* Remove bordas arredondadas */
+}
+.button-container a i {
+    display: block;
+    font-size: 36px;
+    margin-bottom: 10px;
+    line-height: 1; /* Ajuste para centralizar o ícone */
+}
